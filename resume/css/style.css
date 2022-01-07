@@ -1,0 +1,145 @@
+/*
+this is to add a background picture in the whole page.
+*/
+body {
+    background-image: url("background.png");
+}
+
+/*
+this is to style all the h1 element format.
+*/
+h1{
+    font-family:cursive;
+    color:darkblue;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+/*
+this is to style all the ul element format.
+*/
+ul {
+    display:flex;
+    flex-direction: row;
+    font-size: 30px;
+    color:brown;
+    
+}
+
+/*
+this is to put navigation bar in the same line.
+*/
+li,li,li {
+    width:15cm;
+    margin-left: 4em;
+}
+/*
+set the background color of navigation bar
+*/
+li {
+    background-color:inherit;
+    width:auto;
+}
+
+/*
+set the backgound color of navi when hover it
+*/
+li:hover {
+    background-color:lightgray;
+}
+
+/*
+this is to style the element of img.
+*/
+img {
+    padding-top: 60px;
+    padding-left: 100px;
+    width:200px;
+    height:200px;
+    margin-left:2em;
+}
+
+/*
+this is to style the element of table.
+*/
+table {
+    padding-left:50px;
+    table-layout: fixed;
+    width:28cm;
+    background-image: url("section_background.png");
+    margin-left: 150px;
+}
+ /*
+this is to style the class named title's child element h2.
+*/   
+.title >h2 {
+    margin-left:15px ;
+    font-size: 25px;
+    color:brown;
+    
+}
+
+/*
+this is to style the class named title's child element p.
+*/ 
+.title >p {
+    color:black;
+    font-size:20px;
+    width:700px;
+    margin-left: -12px;
+    font-family:'Times New Roman', Times, serif
+}
+
+/*
+this is to style the class named contact's all the decedants.
+*/ 
+.contact * {
+    font:bold;
+    font-size: 20px;
+    color:black;
+}
+
+/*
+this is to style the class named contact.
+*/
+.contact {
+    margin-left: 150px;
+}
+
+/*
+this is to style the class named row1.
+*/
+.row1 {
+    margin-left: -20px;
+    margin-top: -20px;
+}
+/*
+this is to style the class named subcontent.
+*/
+.subcontent {
+    color:black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+/*
+this is to style the footer's child element p.
+*/
+footer >p {
+    font-family: sans-serif;
+    font-size:25px;
+    text-align: center;
+}
+
+/*
+this is to highlight the current page.
+*/
+.aboutme {
+    color:red;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,178 @@
+/*
+this is to add a background picture in the whole page.
+*/
+
+body {
+    background-image: url("background.png");
+}
+
+/*
+this is to style all the h1 element format.
+*/
+h1{
+    font-family:cursive;
+    color:darkblue;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*
+this is to style all the ul element format.
+*/
+ul {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    font-size: 40px;
+    color:brown;    
+}
+
+
+/*
+this is to set the navigation bar's margin.
+*/
+li,li,li {
+    margin-left: 4em;
+    border-radius: 8px;
+}
+
+/*
+set the background color of navigation bar
+*/
+li {
+    background-color:inherit;
+    width:auto;
+}
+
+/*
+set the backgound color of navi when hover it
+*/
+li:hover {
+    background-color:lightgray;
+}
+
+/*
+this is to style the element of section.
+*/
+section {
+    display:flex;
+    flex-direction: row;
+    background-image: url("section_background.png");
+    
+}
+/*
+this is to style the class called name.
+*/
+.name {
+    display:flex;
+    flex-direction: column;
+}
+
+/*
+this is to style the class called leftcolumn.
+*/
+.leftcolumn {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:brown;   
+}
+
+/*
+this is to style the element of img.
+*/
+img {
+    width:500px;
+    height:600px;
+}
+
+/*
+this is to style the container div.
+*/
+div {
+    margin-left: 15px;
+    margin-top:25px;
+}
+
+/*
+this is to style the class called title.
+*/
+.title {
+    font-size: 40px;
+    color:brown;
+    font-weight: bold;  
+}
+
+/*
+this is to style the class .content's child element p
+*/
+.content > p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*
+this is to style the class called hobby.
+*/
+.hobby {
+    color:brown;
+    font-size: 25px;
+}
+
+/*
+this is to style the element of fieldset.
+*/
+fieldset {
+    width:25cm;
+    text-align: left;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin-left: 5cm;
+    font-family: monospace;
+    font-size:20px;
+    background-image: url("section_background.png");
+}
+
+/*
+this is to style the element of footer.
+*/
+footer {
+    font-family: sans-serif;
+    text-align: center;
+}
+/*
+this is to style footer's child element p.
+*/
+footer >p {
+    font-size: 25px;
+}
+
+/*
+this is to style the class called aboutme.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    

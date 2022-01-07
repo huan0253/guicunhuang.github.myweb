@@ -1,0 +1,128 @@
+/*
+this is to add a background picture in the whole page and style the margin.
+*/
+body{
+    margin-left: 20px;
+    margin-right:20px;
+    background-image: url("background3.pnj")
+}
+/*
+this is to style all the h1 element format.
+*/
+h1{
+    font-size: 40px;
+    color: rgb(147, 15, 235);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+/*
+this is to style all the ul element format.
+*/
+ul {
+    display:flex;
+    flex-direction: row;
+    font-size: 40px;
+    color:brown;
+}
+/*
+this is to put navigation bar in the same line.
+*/
+li,li,li {
+    width:15cm;
+    margin-left: 4em;
+}
+/*
+set the background color of navigation bar
+*/
+li {
+    background-color:inherit;
+    width:auto;
+}
+
+/*
+set the backgound color of navi when hover it
+*/
+li:hover {
+    background-color:lightgray;
+}
+
+ /*
+this is to put search box ,filter button and sort box  in the same line.
+*/
+input,input, button {
+    height:30px;
+    width:150px;
+}
+
+/*
+this is to style  the h2 element format.
+*/
+h2 {
+    font-family:fantasy;
+    color:brown;
+}
+
+/*
+this is to style  the container div.
+*/
+div {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+/*
+this is to style  class named course.
+*/
+.course {
+    display: block;
+}
+/*
+this is to style  class named picture.
+*/
+.picture {
+    height:400px;
+    width: 300px;
+}
+
+/*
+this is to style  the element of textarea.
+*/
+textarea {
+    height:50px;
+    width:300px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/*
+this is to style  the element of footer.
+*/
+footer {
+    font-family: sans-serif;
+    font-size:30px;
+    text-align: center;
+}
+/*
+this is to style the class named title's child element p.
+*/ 
+footer >p {
+    font-size: 25px;
+}
+
+/*
+this is to highlight the current page.
+*/
+.aboutme {
+    color:red;
+}
+
+
+
+
+
+
+
+
+    

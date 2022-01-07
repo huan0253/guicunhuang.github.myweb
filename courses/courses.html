@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Courses</title>
+    <link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>Guicun Huang</h1>
+    </header>
+      <nav class ="navi">
+        <ul> 
+          <li><a href="../landing_page/index.html">AboutMe</a></li>
+          <li><a href="../resume/resume.html">Resume</a></li>
+          <li class="aboutme"><a href="../courses/courses.html">Courses</a></li>
+        </ul>
+      </nav>
+
+     <!--this code is to put search button, filter button and sort function on the head of page-->
+    <form  class= "search">
+        <input type="text" id="myinput1" placeholder="Course name..">
+        <input type="text" id="myinput2" onkeyup="myFunction()" placeholder="Search by level.." title="Type in a name">
+        <button onclick="sortList()">Sort</button>
+    </form>
+
+    <!--this code is to show the level one courses. there are three courses in every row-->
+    <h2>level I</h2>
+        <div class="row">
+            <div class ="firstRow">
+                <div class="course">
+                    <img class="picture" src="success.png" alt="course name:CST8300 Achieving success in Changing Environment">
+                    <textarea>CST8300 Achieving success in Changing Environment</textarea>
+                </div>
+                <div class="course">
+                    <img class="picture" src="java2.png" alt="course name:CST8116 Introduction to computer programming">
+                    <textarea>CST8116 Introduction to computer programming</textarea>
+                </div>
+                <div class="course">
+                    <img class="picture" src="database.png" alt="course name:CST8215 Introduction to DataBase">
+                    <textarea>CST8215 Introduction to DataBase</textarea>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class ="secondRow">
+                <div class="course">
+                    <img class="picture" src="essential.png" alt="course name:CST8101 Computer Essential">
+                    <textarea>CST8101 Computer Essential</textarea>
+                </div>
+                <div class="course">
+                    <img class="picture" src="math.png" alt="course name:MAT81001C Tech Math for Computer Science">
+                    <textarea>MAT81001C Tech Math for Computer Science</textarea>
+                </div>
+                <div class="course">
+                    <img class="picture" src="math.png" alt="ENL1813T Communications I">
+                    <textarea>ENL1813T Communications I</textarea>
+                </div>
+            </div>
+        </div>
+
+        <!--this code is to show the level two courses. there are three courses every row-->
+        <h2>level II</h2>
+            <div class="row">
+                <div class ="ThirdRow">
+                    <div class="course">
+                        <img class="picture" src="techcommu.png" alt="Course name:ENL2019T Technical Commu for Eng. Technology">
+                        <textarea>ENL2019T Technical Commu for Eng. Technology</textarea>
+                    </div>
+                    <div class="course">
+                        <img class="picture" src="java1.png" alt="Course name:CST8284 Oriented Object programming">
+                        <textarea>CST8284 Oriented Object programming</textarea>
+                    </div>
+                    <div class="course">
+                        <img class="picture" src="database.png" alt="Course name:CST8285 DataBase System">
+                        <textarea>CST8285 DataBase System</textarea>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="row">
+                <div class ="FourthRow">
+                    <div class="course">
+                        <img class="picture"  src="linux.png" alt="Course name:CST8102 Operating System fund.(GNU/Linux)">
+                        <textarea>CST8102 Operating System fund.(GNU/Linux)</textarea>
+                    </div>
+                    <div class="course">
+                        <img class="picture"  src="web.png" alt="Course name:MAT8285 Web Programming">
+                        <textarea>MAT8285 Web Programming</textarea>
+                    </div>
+                    <div class="course">
+                        <img class="picture" src="coop.png" alt="GEP1001 Cooprative Education Readiness">
+                        <textarea>GEP1001 Cooprative Education Readiness</textarea>
+                    </div>
+                </div>
+            </div> 
+        <!--footer has college information and links to the college web site-->
+    <footer>
+        <p>Algonquin college is a publicly funded English-language college located in Ottawa, Ontario.<br>
+        <a href="https://www.algonquincollege.com/">Visit Algonquincollege.com!</a></p>
+    </footer>           
+</body>
+</html>
